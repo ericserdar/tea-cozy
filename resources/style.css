@@ -1,0 +1,141 @@
+/* Master stylesheet */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+}
+
+h2 {
+  margin: auto;
+}
+
+h4 {
+  margin: auto;
+}
+/* Header stylesheet */
+
+header {
+  display: flex;
+  height: 69px;
+  width: 1300px;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  /* position: fixed; */
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header-image {
+  margin-left: 10px;
+  height: 50px;
+}
+
+nav span {
+  text-decoration: underline;
+  flex-grow: 1;
+}
+
+/* Body stylesheet */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.main-image {
+  background-image: url("./images/img-mission-background.jpg");
+  height: 700px;
+  z-index: 2;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ribbon-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+  background-color: black;
+  height: 150px;
+}
+
+/* Tea of the month section */
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin: 50px 0 10px 0;
+}
+
+.fall-berry-image h4 {
+  margin: 10px;
+}
+
+.headline h2 {
+  margin: 15px;
+}
+
+.tea-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea-test {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+  width: 1000px; 
+}
+
+.fall-berry-image {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.spiced-rum-tea-image {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.seasonal-donuts-image {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.myrtle-ave-tea-image {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.bedford-bizzare-tea-image {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
