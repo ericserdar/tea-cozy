@@ -81,10 +81,6 @@ nav span {
   margin: auto;
 }
 
-.fall-berry-image h4 {
-  margin: 10px;
-}
-
 .headline h2 {
   margin: 15px;
 }
@@ -106,32 +102,35 @@ nav span {
   width: 1000px;
 }
 
-.fall-berry-image {
+.individual-tea-images{
   width: 300px;
   height: 200px;
   margin: 10px;
 }
 
-.spiced-rum-tea-image {
-  width: 300px;
-  height: 200px;
-  margin: 10px;
+/* Locations Section */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  flex-wrap: wrap;
+  background-image: url("./images/img-locations-background.jpg");
+  margin-top: 50px;
 }
 
-.seasonal-donuts-image {
-  width: 300px;
-  height: 200px;
-  margin: 10px;
+.locations-headline {
+  margin: auto;
 }
 
-.myrtle-ave-tea-image {
+.location-subsection {
+  display: inline-flex;
+  flex-direction: column;
   width: 300px;
   height: 200px;
-  margin: 10px;
-}
-
-.bedford-bizzare-tea-image {
-  width: 300px;
-  height: 200px;
-  margin: 10px;
+  justify-content: space-around;
+  margin: 15px 20px;
+  flex-wrap: wrap;
+  opacity: 1;
+  background-color: black;
 }
