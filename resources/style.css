@@ -42,15 +42,9 @@ nav span {
 /* Body stylesheet */
 
 .content {
-  display: flex;
-  flex-direction: column;
-  height: 700px;
   width: 1200px;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  margin-left: 5%;
   text-align: center;
-  position: relative;
 }
 
 .main-image {
@@ -72,6 +66,7 @@ nav span {
   width: 1200px;
   background-color: black;
   height: 150px;
+  margin: 129px 0;
 }
 
 /* Tea of the month section */
@@ -81,8 +76,9 @@ nav span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: center;
   width: 1000px;
-  margin: 50px 0 10px 0;
+  margin: auto;
 }
 
 .fall-berry-image h4 {
@@ -107,7 +103,7 @@ nav span {
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-  width: 1000px; 
+  width: 1000px;
 }
 
 .fall-berry-image {
