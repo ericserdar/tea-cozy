@@ -135,6 +135,14 @@ padding-left: 175px;
   background-color: black;
 }
 
+.location-subsection h3 {
+  margin: 5px 5px 0;
+}
+
+.location-subsection h4 {
+  margin: 0 5px 5px;
+}
+
 /* footer section */
 
 footer {
