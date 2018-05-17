@@ -6,37 +6,38 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  width: 100%;
+  width: 1400px;
+  /*Not sure one correct size of page, so I'm doing this because it looks correct on my screens */
 }
 
+h4,
 h2 {
   margin: auto;
 }
 
-h4 {
-  margin: auto;
+a {
+  color: white;
+  margin: 10px;
+}
+
+a:hover {
+  color: seashell;
 }
 /* Header stylesheet */
 
 header {
   display: flex;
   height: 69px;
-  width: 1300px;
+  width: 100%;
   justify-content: space-between;
   border-bottom: 1px solid seashell;
-  /* position: fixed; */
+  position: fixed;
   align-items: center;
-  flex-grow: 1;
 }
 
 .header-image {
   margin-left: 10px;
   height: 50px;
-}
-
-nav span {
-  text-decoration: underline;
-  flex-grow: 1;
 }
 
 /* Body stylesheet */
@@ -45,50 +46,46 @@ nav span {
   width: 1200px;
   margin-left: 5%;
   text-align: center;
+  padding-top: 70px;
+
 }
 
 .main-image {
   background-image: url("./images/img-mission-background.jpg");
   height: 700px;
-  z-index: 2;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .ribbon-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
   width: 1200px;
   background-color: black;
-  height: 150px;
-  margin: 129px 0;
+  height: 125px;
 }
 
 /* Tea of the month section */
 
+.tea-of-the-month {
+  margin-top: 20px;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
   width: 1000px;
   margin: auto;
 }
 
 .headline h2 {
-  margin: 15px;
+  margin: 10px;
 }
 
 .tea-images {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -97,15 +94,21 @@ nav span {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: center;
-	align-content: center;
   width: 1000px;
 }
 
 .individual-tea-images{
   width: 300px;
   height: 200px;
-  margin: 10px;
+  margin-top: 20px;
+}
+
+.myrtle-ave-tea {
+padding-left: 175px;
+}
+
+.bedford-bizzare-tea {
+  padding-right: 175px;
 }
 
 /* Locations Section */
@@ -133,4 +136,19 @@ nav span {
   flex-wrap: wrap;
   opacity: 1;
   background-color: black;
+}
+
+/* footer section */
+
+footer {
+  margin-top: 15px;
+}
+
+.main-footer {
+  height: 200px;
+}
+
+.footer-copyright {
+  margin: 0 20px;
+  text-align: left;
 }
