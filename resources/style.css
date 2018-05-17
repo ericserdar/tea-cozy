@@ -13,7 +13,7 @@ body {
 
 h4,
 h2 {
-  margin: auto;
+  margin: 10px;
 }
 
 a {
@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-  color: seashell;
+  color: blue;
 }
 
 /* Header stylesheet */
@@ -64,7 +64,7 @@ header {
   flex-direction: column;
   width: 1200px;
   background-color: black;
-  height: 125px;
+  height: 100px;
 }
 
 /* Tea of the month section */
@@ -78,10 +78,6 @@ header {
   flex-direction: column;
   width: 1000px;
   margin: auto;
-}
-
-.headline h2 {
-  margin: 10px;
 }
 
 .tea-images {
