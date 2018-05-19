@@ -6,9 +6,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  width: 1400px;
   margin: 0;
-  /*Not sure one correct size of page, so I'm doing this because it looks correct on my screens */
 }
 
 h4,
